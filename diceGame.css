@@ -1,35 +1,25 @@
 html {
   scroll-behavior: smooth;
 }
-body {
-  background-image: linear-gradient(
-      330deg,
-      rgba(225, 225, 225, 0.05) 0%,
-      rgba(225, 225, 225, 0.05) 33.333%,
-      rgba(114, 114, 114, 0.05) 33.333%,
-      rgba(114, 114, 114, 0.05) 66.666%,
-      rgba(52, 52, 52, 0.05) 66.666%,
-      rgba(52, 52, 52, 0.05) 99.999%
-    ),
-    linear-gradient(
-      66deg,
-      rgba(181, 181, 181, 0.05) 0%,
-      rgba(181, 181, 181, 0.05) 33.333%,
-      rgba(27, 27, 27, 0.05) 33.333%,
-      rgba(27, 27, 27, 0.05) 66.666%,
-      rgba(251, 251, 251, 0.05) 66.666%,
-      rgba(251, 251, 251, 0.05) 99.999%
-    ),
-    linear-gradient(
-      225deg,
-      rgba(98, 98, 98, 0.05) 0%,
-      rgba(98, 98, 98, 0.05) 33.333%,
-      rgba(222, 222, 222, 0.05) 33.333%,
-      rgba(222, 222, 222, 0.05) 66.666%,
-      rgba(228, 228, 228, 0.05) 66.666%,
-      rgba(228, 228, 228, 0.05) 99.999%
-    ),
-    linear-gradient(90deg, rgb(28, 20, 63), rgb(40, 160, 253));
+.custom-shape-divider-top-1612722172 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1612722172 svg {
+  position: fixed;
+  display: block;
+  width: calc(226% + 1.3px);
+  height: 400px;
+  z-index: -1;
+}
+
+.custom-shape-divider-top-1612722172 .shape-fill {
+  fill: #7971EA;
 }
 * {
   padding: 0;
